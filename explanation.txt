@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+#NOTE: This pseudocode is purely explanatory and does not function.
 
-blob = ''' string with same md5 hashes, differing sha256 hashes '''
+blob = ''' binary blob with same md5 hashes, differing sha256 hashes '''
 
 from hashlib import sha256
 #print sha256(blob).hexdigest()
